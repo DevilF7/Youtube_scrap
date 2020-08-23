@@ -11,7 +11,7 @@ import csv
 options = Options()
 options.headless = True
 driver = webdriver.Firefox(options=options, executable_path=r'/usr/bin/geckodriver')
-driver.get("http://google.com/")
+#driver.get("http://google.com/")
 #options = webdriver.ChromeOptions()
 #options.headless = True
 options.add_argument('--disable-gpu')
