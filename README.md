@@ -13,6 +13,10 @@ This command will start to scrap YT major news channels like
 > Manorma
 >
 > MediaOne
+>
+>AlJazeera
+>
+>NDTV
 
 The Data will be saved in a csv file and will be displayed in the browser by running streamlit App.
 
