@@ -3,3 +3,5 @@ pandas==1.1.0
 selenium==3.141.0
 beautifulsoup4==4.9.1
 python-csv==0.0.13
+Xvfb
+PyVirtualDisplay
