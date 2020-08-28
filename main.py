@@ -13,10 +13,10 @@ import csv
 
 
 # Constants
-chrome_options = webdriver.ChromeOptions()
-chrome_options.add_argument('--headless')
-chrome_options.add_argument('--no-sandbox')
-driver = webdriver.Chrome(executable_path=r'/usr/bin/chromedriver',chrome_options=chrome_options, service_args=['--verbose', '--log-path=/tmp/chromedriver.log'])
+options = webdriver.ChromeOptions()
+options.add_argument('--headless')
+options.add_argument('--no-sandbox')
+driver = webdriver.Chrome(executable_path=r'/usr/bin/chromedriver',options=options, service_args=['--verbose', '--log-path=/tmp/chromedriver.log'])
 
 
 
