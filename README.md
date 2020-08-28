@@ -1,4 +1,4 @@
-# Live view and Subscriber Count Scrapping
+# Live view and Subscriber Count Scraping
 
 Uses selenium so it needs a webdriver and it shall be downloaded and path shall be given in main python or add to $PATH.
 
