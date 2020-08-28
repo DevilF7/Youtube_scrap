@@ -1,25 +1,22 @@
 # from threading import Thread
-#from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.chrome.options import Options
+#from selenium.webdriver.firefox.options import Options
+from pyvirtualdisplay import Display
 from selenium import webdriver
 from bs4 import BeautifulSoup
 from datetime import datetime
 import time
 import csv
 
+#display = Display(visible=0, size=[800, 600])
+#display.start()
+
+
 # Constants
-#driver = webdriver.Chrome("/usr/bin/chromedriver")
-options = Options()
-options.headless = True
-driver = webdriver.Firefox(options=options, executable_path=r'/usr/bin/geckodriver')
-#driver.get("http://google.com/")
-#options = webdriver.ChromeOptions()
-#options.headless = True
-options.add_argument('--disable-gpu')
-#options.add_argument('--headless')
-#options.add_argument('--disable-infobars')
-#options.add_argument('--no-sandbox')
-#options.add_argument('--disable_extensions')
+chrome_options = webdriver.ChromeOptions()
+chrome_options.add_argument('--headless')
+chrome_options.add_argument('--no-sandbox')
+driver = webdriver.Chrome(executable_path=r'/usr/bin/chromedriver',chrome_options=chrome_options, service_args=['--verbose', '--log-path=/tmp/chromedriver.log'])
 
 
 
