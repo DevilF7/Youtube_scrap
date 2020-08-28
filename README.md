@@ -25,13 +25,16 @@ Real time graph in graph.py
 ```shell
 streamlit run app.py
 ```
-yum install Xvfb
-pip3 install PyVirtualDisplay
+>yum install Xvfb
+
+>pip3 install PyVirtualDisplay
 
 
-Install chromedriver
-No GUI needed
-Can be run in a server
+>Install chromedriver
+
+>No GUI needed
+
+>Can be run in a server
 
 ## To Do
 > Multi threading for the scraping to make it faster
