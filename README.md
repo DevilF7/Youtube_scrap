@@ -1,6 +1,7 @@
 # News Live Count Scrapping
 
 Uses selenium so it needs a webdriver and it shall be downloaded and path shall be given in main python or add to $PATH.
+
 ```shell
 python3 main.py
 ```
@@ -19,16 +20,20 @@ This command will start to scrap YT major news channels like
 >NDTV
 
 The Data will be saved in a csv file and will be displayed in the browser by running streamlit App.
+Real time graph in graph.py
 
 ```shell
 streamlit run app.py
 ```
+yum install Xvfb
+pip3 install PyVirtualDisplay
 
-Install geckodriver
+
+Install chromedriver
+No GUI needed
+Can be run in a server
 
 ## To Do
 > Multi threading for the scraping to make it faster
->
-> Migrate to firefox for scrapping | Urlllib is not working as count is loaded in JS in browser or need to find a work around
 >
 > Date mangment in streamlit
