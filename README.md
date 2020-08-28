@@ -1,11 +1,11 @@
-# News Live Count Scrapping
+# Live view and Subscriber Count Scrapping
 
 Uses selenium so it needs a webdriver and it shall be downloaded and path shall be given in main python or add to $PATH.
 
 ```shell
 python3 main.py
 ```
-This command will start to scrap YT major news channels like
+This command will start to scrap youtube major news channels like
 
 > Asianet News
 >
